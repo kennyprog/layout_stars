@@ -1,1 +1,19 @@
-/* add styles here */
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  background-image: url(images/star.svg);
+  height: 12px;
+  width: 13px;
+  margin: 4px 5px 5px 0;
+}
+
+.star-active {
+  background-image: url(images/star-active.svg);
+}
